@@ -6,21 +6,12 @@
 <div markdown="1" align="center">
 
 
-![Build Status](https://bsski.semaphoreci.com/badges/DjangoImagesAPI/branches/main.svg?style=shields&key=0adba4be-b67c-416d-802b-90f43f19ff0f)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a84055e6e49ddb02653e/maintainability)](https://codeclimate.com/github/BSski/DjangoImagesAPI/maintainability)
 [![CodeFactor](https://www.codefactor.io/repository/github/bsski/django-images-api/badge)](https://www.codefactor.io/repository/github/bsski/django-images-api)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 </div>
 <!-- [![Demo Uptime](https://img.shields.io/uptimerobot/ratio/7/m792086829-c54e14cd8cfdacdfdfa92920)](https://django-images-api-bsski.herokuapp.com/) -->
 <!-- [![Heroku](https://pyheroku-badge.herokuapp.com/?app=django-images-api-bsski&style=flat)](https://django-images-api-bsski.herokuapp.com/) -->
-
-<h3 align="center">
-  :fireworks: Live demo :fireworks:
-</h3>
-
-<p align="center">
-  <b>[Heroku retracted its free tier, therefore all my demos are unavailable until further notice.]</b>
-</p>
 
 <!--
 <p align="center">
@@ -154,7 +145,7 @@ The recruitment task demanded such features and all are provided in a required f
 - accessing thumbnail link from image view with `?time_exp=500` at the end of it generates a link to it expiring in 500 seconds (if logged in user is permitted to do that; range: 300-30000).
 
 
-Furthermore, the website is deployed on Heroku from a Docker image using a CI/CD SemaphoreCI pipeline:
+Furthermore, the website is (note from the future: was) deployed on Heroku from a Docker image using a CI/CD SemaphoreCI pipeline:
 
 ![CI/CD screenshot](https://i.imgur.com/3kWt2aT.png)
 
@@ -172,4 +163,4 @@ Due to the time limitation, there are very important things left to add:
 
 ## :construction_worker: Author
 
-- [@BSski](https://www.github.com/BSski)
+- [@bartswe](https://www.github.com/bartswe)
